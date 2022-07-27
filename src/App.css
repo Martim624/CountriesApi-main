@@ -1,0 +1,72 @@
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: #757977;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #2908e2;
+  border: 1px solid #230052;
+  color: rgb(255, 255, 255);
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #460897;
+  border-color: #460897;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  border: 3px solid #00b4cc;
+  padding: 15px;
+  height: 15px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+li {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+li h3 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2.5rem;
+}
